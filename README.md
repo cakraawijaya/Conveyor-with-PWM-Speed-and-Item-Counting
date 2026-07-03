@@ -5,7 +5,7 @@
 ![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Conveyor with PWM Speed and Item Counting
-The system consists of two microcontrollers, an Arduino Pro Mini and an STM8S103F3P6, each operating independently while complementing one another. The Arduino Pro Mini is responsible for controlling the conveyor motor, including its speed and rotation direction. Meanwhile, the STM8S103F3P6 functions as an automatic item-counting module, displaying the counting results locally on an I2C LCD.
+The system consists of two microcontroller boards, an Arduino Pro Mini and an STM8S103F3P6, each operating independently while complementing one another. The Arduino Pro Mini is responsible for controlling the conveyor motor, including its speed and rotation direction. Meanwhile, the STM8S103F3P6 functions as an automatic item-counting module, displaying the counting results locally on an I2C LCD.
 
 <br><br>
 

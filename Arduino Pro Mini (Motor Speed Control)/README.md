@@ -18,7 +18,7 @@ Conveyor is a mechanical system used to move goods or materials from one place t
 | Driver | PL2303 USB Driver |
 | Programming Language | C/C++ |
 | Actuators | Gear Motor / Motor DC (x1) |
-| Other Components | • Jumper cable (1 set)<br>• Adaptor DC 12V 2A (x1)<br>• Motor driver L298N (x1)<br>• Breadboard (x1)<br>• Potentiometer (x1)<br>• Push button 12 x 12 mm (x2)<br>• PVC Sheets 3 mm 10 x 50 cm (x5)<br>• Stainless Steel Concrete 30 cm (x1)<br>• Bearing Pillow Block 6 mm (x3)<br>• 1/2 Inch Pipe 25 cm (x2)<br>• Oscar fabric 50 x 137 cm (x1)<br>• Wood stickers (1 set)<br>• Bolts plus (1 set)<br>• Nuts (1 set)<br>• L Bracket (1 set)<br>• PVC Electrical insulation (1 set)<br>• Sandpaper G-180 1 m (x1)<br>• Smart Car Rims (x1) |
+| Other Components | • Jumper cable (1 set)<br>• Adaptor DC 12V 2A (x1)<br>• Motor driver L298N (x1)<br>• Breadboard (x1)<br>• Potentiometer (x1)<br>• Push button 12 x 12 mm (x2)<br>• PVC Sheets 3 mm 10 x 50 cm (x5)<br>• Stainless Steel Concrete 30 cm (x1)<br>• Bearing Pillow Block 6 mm (x3)<br>• 1/2 Inch Pipe 25 cm (x1)<br>• Oscar fabric 50 x 137 cm (x1)<br>• Wood stickers (x2)<br>• Bolts plus (1 set)<br>• Nuts (1 set)<br>• L Bracket (x24)<br>• PVC Electrical insulation (1 set)<br>• Sandpaper G-180 1 m (x1)<br>• Smart Car Rims (x1)<br>• Hexagonal Spacer Female to Female M3 x 12 (x4)<br>• Hexagonal Spacer Female to Male M3 x 20 (x4)<br>• Bolts M3 x 8 (x8)<br>• Bolts M3 x 20 (x12)<br>• Bolts M3 x 30 (x2)<br>• Bolts M5 x 25 (x8)<br>• Bolts M5 x 20 (x32)<br>• Nuts M3 (x14)<br>• Nuts M5 (x40) |
 
 <br><br>
 
@@ -39,6 +39,16 @@ Conveyor is a mechanical system used to move goods or materials from one place t
    
    ```
    https://bit.ly/PL2303P_USBdriver
+   ```
+
+   </td></tr></table><br>
+
+3. CH340 USB Driver
+
+   <table><tr><td width="810">
+
+   ```
+   https://bit.ly/CH341SER_USB_Driver
    ```
 
    </td></tr></table>

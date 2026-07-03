@@ -5,7 +5,7 @@
 ![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Conveyor with PWM Speed and Item Counting
-Sistem ini terdiri dari dua mikrokontroler (Arduino Pro Mini dan STM8S103F3P6), yang masing-masing bekerja secara independen namun tetap saling melengkapi satu sama lain. Arduino Pro Mini bertanggung jawab atas pengendalian motor konveyor, termasuk pengaturan kecepatan dan arah putaran motor. STM8S103F3P6 berfungsi sebagai modul penghitung barang otomatis yang menampilkan hasil perhitungan secara lokal melalui LCD I2C.
+Sistem ini terdiri dari dua papan mikrokontroler (Arduino Pro Mini dan STM8S103F3P6), yang masing-masing bekerja secara independen namun tetap saling melengkapi satu sama lain. Arduino Pro Mini bertanggung jawab atas pengendalian motor konveyor, termasuk pengaturan kecepatan dan arah putaran motor. STM8S103F3P6 berfungsi sebagai modul penghitung barang otomatis yang menampilkan hasil perhitungan secara lokal melalui LCD I2C.
 
 <br><br>
 

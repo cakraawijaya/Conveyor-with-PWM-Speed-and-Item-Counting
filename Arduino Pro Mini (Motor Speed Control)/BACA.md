@@ -18,7 +18,7 @@ Konveyor adalah sebuah sistem mekanik yang digunakan untuk memindahkan barang at
 | Driver | PL2303 USB Driver |
 | Bahasa Pemrograman | C/C++ |
 | Aktuator | Gear Motor / Motor DC (x1) |
-| Komponen Lainnya| • Kabel jumper (1 set)<br>• Adaptor DC 12V 2A (x1)<br>• Motor driver L298N (x1)<br>• Breadboard (x1)<br>• Potensiometer (x1)<br>• Tombol tekan 12 x 12 mm (x2)<br>• PVC Lembaran 3 mm 10 x 50 cm (x5)<br>• Beton Baja Stainless Steel 30 cm (x1)<br>• Bantalan Bearing 6mm (x3)<br>• Pipa 1/2 Inchi 25 cm (x2)<br>• Kain Oscar 50 x 137 cm (x1)<br>• Stiker kayu (1 set)<br>• Baut plus (1 set)<br>• Mur (1 set)<br>• Braket L (1 set)<br>• Isolasi listrik PVC (1 set)<br>• Sandpaper G-180 1 m (x1)<br>• Velg Smart Car (x1)  |
+| Komponen Lainnya| • Kabel jumper (1 set)<br>• Adaptor DC 12V 2A (x1)<br>• Motor driver L298N (x1)<br>• Breadboard (x1)<br>• Potensiometer (x1)<br>• Tombol tekan 12 x 12 mm (x2)<br>• PVC Lembaran 3 mm 10 x 50 cm (x5)<br>• Beton Baja Stainless Steel 30 cm (x1)<br>• Bantalan Bearing 6mm (x3)<br>• Pipa 1/2 Inchi 25 cm (x2)<br>• Kain Oscar 50 x 137 cm (x1)<br>• Stiker kayu (x2)<br>• Baut plus (1 set)<br>• Mur (1 set)<br>• Braket L (x24)<br>• Isolasi listrik PVC (1 set)<br>• Sandpaper G-180 1 m (x1)<br>• Velg Smart Car (x1)<br>• Hexagonal Spacer Female to Female M3 x 12 (x4)<br>• Hexagonal Spacer Female to Male M3 x 20 (x4)<br>• Baut M3 x 8 (x8)<br>• Baut M3 x 20 (x12)<br>• Baut M3 x 30 (x2)<br>• Baut M5 x 25 (x8)<br>• Baut M5 x 20 (x32)<br>• Mur M3 (x14)<br>• Mur M5 (x40) |
 
 <br><br>
 
@@ -39,6 +39,16 @@ Konveyor adalah sebuah sistem mekanik yang digunakan untuk memindahkan barang at
 
    ```
    https://bit.ly/PL2303P_USBdriver
+   ```
+
+   </td></tr></table><br>
+
+3. CH340 USB Driver
+
+   <table><tr><td width="810">
+
+   ```
+   https://bit.ly/CH341SER_USB_Driver
    ```
 
    </td></tr></table>
