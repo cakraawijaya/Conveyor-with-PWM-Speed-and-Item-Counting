@@ -41,16 +41,6 @@ Konveyor adalah sebuah sistem mekanik yang digunakan untuk memindahkan barang at
    https://bit.ly/PL2303P_USBdriver
    ```
 
-   </td></tr></table><br>
-
-3. CH340 USB Driver
-
-   <table><tr><td width="810">
-
-   ```
-   https://bit.ly/CH341SER_USB_Driver
-   ```
-
    </td></tr></table>
    
 <br><br>
