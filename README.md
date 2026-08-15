@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/cakraawijaya/Conveyor-with-PWM-Speed-and-Item-Counting?logo=Codeforces&logoColor=white&color=%23F7DF1E)
 ![Project](https://img.shields.io/badge/Project-Arduino%20&%20STM8-light.svg?style=flat&logo=STMicroelectronics&logoColor=white&color=%23F7DF1E)
-![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-EW%20Project%20Challenge%202026-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Conveyor with PWM Speed and Item Counting
 This project combines a mini conveyor with an automatic item counting system. The system consists of two microcontroller boards (Arduino Pro Mini and STM8S103F3P6), each of which operates independently yet complements the other. The Arduino Pro Mini is responsible for controlling the conveyor motor, including adjusting the motor’s speed and rotation direction. The STM8S103F3P6 functions as an automatic item-counting module that displays the count locally via an I2C LCD.
