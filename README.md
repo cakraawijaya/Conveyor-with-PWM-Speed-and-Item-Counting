@@ -372,12 +372,12 @@ void loop() {
    <ul>
    <li>
    
-   Serial communication on this ``` STM8 ``` board is very possible, especially for ``` Serial Monitor ``` and ``` Serial Plotter ``` purposes. Tools that can be used for serial communication include: ``` CP2102 USB ```, ``` CH340 USB ```, ``` FTDI USB ```, or with ``` PL2303 USB ```.
+   Serial communication on this ``` STM8S103F3P6 ``` board is very possible, especially for ``` Serial Monitor ``` and ``` Serial Plotter ``` purposes. Tools that can be used for serial communication include: ``` CP2102 USB ```, ``` CH340 USB ```, ``` FTDI USB ```, or with ``` PL2303 USB ```.
 
    </li>
    <li>
    
-   You can see the wiring between the ``` FTDI USB ``` and the ``` STM8 ``` board in detail in the picture above.
+   You can see the wiring between the ``` FTDI USB ``` and the ``` STM8S103F3P6 ``` board in detail in the picture above.
    
    </li>
    </ul>
@@ -468,7 +468,7 @@ void loop() {
 
    </td></tr></table><br>
    
-7. Before uploading the program please click: ``` Verify ```.<br><br>
+7. Before uploading the program, please click: ``` Verify ```.<br><br>
 
 8. If there is no error in the program code, the next step is to use the programming tool according to the procedure.
 
@@ -480,7 +480,7 @@ void loop() {
             
    </td></tr></table>
    
-   Then please click: ``` Upload ``` to upload the program code.<br><br>
+   Then click: ``` Upload ``` to upload the program code.<br><br>
 
 9. Some things you need to do when using the ``` Arduino Pro Mini board ``` with ``` PL2303 USB ``` :
 
@@ -488,7 +488,7 @@ void loop() {
 
       • ``` Arduino IDE ``` information: ``` Uploading... ``` -> immediately press the ``` RESET ``` button and release it.
       
-      • Wait until the message appears: ```Done Uploading ``` -> ```The program is directly operated ```.
+      • Wait until the message appears: ``` Done Uploading ``` -> ``` The program is directly operated ```.
 
    </td></tr></table><br>
 
