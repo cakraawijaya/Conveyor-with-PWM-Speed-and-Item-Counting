@@ -385,6 +385,117 @@ void loop() {
 
 <br><br>
 
+## Pengaturan Arduino IDE
+1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek dengan cara klik ``` File ``` -> ``` Open ``` :
+
+   <table><tr><td width="810">
+   
+      • ``` pwm_conveyor.ino ```
+      
+      • ``` auto_counter.ino ```
+
+   </td></tr></table><br>
+   
+2. Isi ``` Url Pengelola Papan Tambahan ``` di Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut :
+   
+      ```
+      https://raw.githubusercontent.com/tenbaht/sduino/master/package_sduino_stm8_index.json
+      ```
+
+   </td></tr></table><br>
+   
+3. ``` Pengaturan Board ``` di Arduino IDE
+
+   <table>
+      <tr><th>
+         
+      i
+         
+      </th><th width="780">
+            
+      Cara mengatur board ``` Arduino Pro Mini ```
+   
+      </th></tr>
+      <tr><td colspan="2" width="780">
+
+      Pilih papan dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Pro or Pro Mini ```.
+              
+      </td></tr>
+   </table><br><table>
+      <tr><th>
+         
+      ii
+         
+      </th><th width="775">
+
+      Cara mengatur board ``` STM8S103F3P6 ```
+            
+      </th></tr>
+      <tr><td colspan="2" width="775">
+
+      • Klik bagian ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` Sduino STM8 plain C core (non-C++) ```.
+
+      • Kemudian pilih papan dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` STM8S Boards ``` -> ``` STM8S103F3 Breakout Board ```.
+            
+      </td></tr>
+   </table><br>
+   
+4. ``` Ubah Processor ``` di Arduino IDE untuk board Arduino Pro Mini (sesuaikan dengan tipenya)
+
+   <table><tr><td width="810">
+   
+      Klik ``` Tools ``` -> ``` Processor ``` -> ``` ATmega328P (5V, 16 MHz) ```
+
+   </td></tr></table><br>
+
+5. ``` Pengaturan Port ``` di Arduino IDE untuk board Arduino Pro Mini
+
+   <table><tr><td width="810">
+   
+      Klik ``` Port ``` -> Pilih sesuai dengan port perangkat anda ``` (anda dapat melihatnya di Device Manager) ```
+
+   </td></tr></table><br>
+
+6. ``` Ubah Pemrogram ``` di Arduino IDE untuk board STM8S103F3P6
+
+   <table><tr><td width="810">
+      
+   Klik ``` Tools ``` -> ``` Programmer ``` -> ``` ST-Link/V2 ```
+
+   </td></tr></table><br>
+   
+7. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
+
+8. Jika tidak ada kesalahan dalam kode program, langkah selanjutnya yaitu menggunakan alat pemrograman sesuai prosedur.
+
+   <table><tr><td width="810">
+
+      • ``` Arduino Pro Mini ``` gunakan -> ``` USB PL2303 ``` atau ``` USB FTDI ```.
+
+      • ``` STM8S103F3P6 ``` gunakan -> ``` ST-Link/V2 ```.
+            
+   </td></tr></table>
+   
+   Kemudian klik: ``` Upload ``` untuk mengunggah kode program.<br><br>
+
+9. Beberapa hal yang perlu anda lakukan saat menggunakan ``` board Arduino Pro Mini ``` dengan ``` USB PL2303 ``` :
+
+   <table><tr><td width="810">
+
+      • Informasi ``` Arduino IDE ```: ``` Uploading... ``` -> segera tekan tombol ``` RESET ``` dan lepaskan.
+      
+      • Tunggu sampai muncul pesan: ``` Done Uploading ``` -> ``` Program langsung dioperasikan ```.
+
+   </td></tr></table><br>
+
+10. Jika masih ada masalah saat unggah program, maka coba periksa pada bagian ``` driver ``` / ``` port ``` / ``` alat pemrogram ``` / ``` yang lainnya ```.
+
+<br><br>
+
 ## Memulai
 1. Unduh dan ekstrak repositori ini.<br><br>
    
