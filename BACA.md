@@ -94,7 +94,117 @@ Kecepatan konveyor diatur menggunakan potensiometer, sedangkan arah putaran moto
 
 <br><br>
 
-## Memindai Alamat I2C Yang Ada Pada LCD
+## Pengaturan USB PL2303 & Arduino Pro Mini
+<img width="840" src="Assets/Documentation/Diagram/Arduino Pro Mini with PL2303.jpg" alt="pl2303-arduino-pro-mini-configuration"><br><br>
+
+<h3><img src="https://github.com/user-attachments/assets/932b96eb-cbc7-42f1-8938-43cb431889a5" width="16" height="16"> Catatan :</h3>
+<blockquote>
+   <ul>
+   <li>
+   
+   ``` Arduino Pro Mini ``` ini tidak dilengkapi dengan ``` port USB ```, sehingga anda membutuhkan perangkat tambahan berupa ``` USB to TTL Serial ``` untuk dapat terhubung ke laptop ataupun PC. ``` USB to TTL Serial ``` seperti ``` USB PL2303 ``` ini biasa digunakan untuk media perantara dalam pengunggahan suatu program.
+   
+   </li>
+   <li>
+   
+   Pemasangan kabel antara ``` USB PL2303 ``` dengan board ``` Arduino Pro Mini ``` dapat anda lihat selengkapnya pada gambar di atas.
+   
+   </li>
+   <li>
+   
+   Untuk mengunggah program, selain menggunakan ``` USB PL2303 ```, anda juga dapat menggunakan alat pemrogram lainnya seperti: ``` USB CP2102 ```, ``` USB CH340 ```, atau dengan ``` USB FTDI ```. Berdasarkan pengalaman, saya akui bahwa penggunaan ``` USB FTDI ``` atau ``` USB CP2102 ``` itu jauh lebih baik daripada ``` USB PL2303 ``` maupun ``` USB CH340 ```. Saya merekomendasikan metode alternatif ini karena saya sering mengalami kegagalan pengunggahan saat menggunakan ``` USB PL2303 ```. Hal ini biasanya terjadi ketika waktu reset manual tidak selaras dengan proses pengunggahan. Contoh error-nya ditunjukkan di bawah ini.
+   
+   </li>
+   
+   <img width="810" height="250" src="Assets/Documentation/Experiment/Arduino Pro Mini Upload Failed.jpg" alt="upload-failed">
+   </ul>
+</blockquote>
+
+<br><br>
+
+## Pengaturan USB FTDI & Arduino Pro Mini (Metode Alternatif)
+<img width="840" src="Assets/Documentation/Diagram/Arduino Pro Mini with FTDI (Alternative).jpg" alt="ftdi-arduino-pro-mini-configuration"><br><br>
+
+<h3><img src="https://github.com/user-attachments/assets/932b96eb-cbc7-42f1-8938-43cb431889a5" width="16" height="16"> Catatan :</h3>
+<blockquote>
+   <ul>
+   <li>
+   
+   Pemasangan kabel antara ``` USB FTDI ``` dengan board ``` Arduino Pro Mini ``` dapat anda lihat selengkapnya pada gambar di atas.
+   
+   </li>
+   <li>
+   
+   Mengunggah program menggunakan ``` USB FTDI ``` umumnya lebih mudah dan lebih andal karena perangkat ini dapat secara otomatis mereset ``` Arduino Pro Mini ``` melalui pin ``` DTR ```. Artinya, anda tidak perlu lagi menekan tombol ``` Reset ``` secara manual setiap kali mengunggah program.
+   
+   </li>
+   <li>
+   
+   Jika Anda tidak memiliki perangkat ``` USB FTDI ```, anda dapat menggunakan perangkat ``` USB CP2102 ``` sebagai gantinya, karena pengaturannya hampir sama.
+   
+   </li>
+   </ul>
+</blockquote>
+
+<br><br>
+
+## Pengaturan ST-Link/V2 & STM8S103F3P6
+<img width="840" src="Assets/Documentation/Diagram/STM8S103F3P6 with ST-Link V2.jpg" alt="stlink-stm8s103f3p6-configuration"><br><br>
+
+<h3><img src="https://github.com/user-attachments/assets/932b96eb-cbc7-42f1-8938-43cb431889a5" width="16" height="16"> Catatan :</h3>
+<blockquote>
+   <ul>
+   <li>
+   
+   Modul antarmuka kabel tunggal atau ``` SWIM ``` pada dasarnya digunakan untuk berkomunikasi dengan board ``` STM8 ```.
+
+   </li>
+   <li>
+   
+   Pemasangan kabel antara ``` ST-Link/V2 ``` dengan board ``` STM8S103F3P6 ``` dapat anda lihat selengkapnya pada gambar di atas.
+   
+   </li>
+   <li>
+   
+   Berdasarkan pengalaman pribadi, ``` STM8 ``` hanya dapat diprogram dengan ``` ST-Link ```.
+   
+   </li>
+   </ul>
+</blockquote>
+
+<br><br>
+
+## Menghilangkan proteksi penulisan pada STM8S103F3P6
+Proteksi penulisan pada board ``` STM8S103F3P6 ``` dapat dihilangkan melalui beberapa tahapan, antara lain :<br><br>
+1. Hubungkan board ``` STM8S103F3P6 ``` ke ``` ST-Link/V2 ```, lalu hubungkan ``` ST-Link/V2 ``` ke PC atau laptop.<br><br>
+
+2. Buka ``` CMD (Command Prompt) ```.<br><br>
+
+3. Masuk ke dalam direktori :
+
+   <table><tr><td width="810">
+
+   ``` C:\Users\[Computer Name]\AppData\Local\Arduino15\packages\sduino\tools\STM8Tools\2019.02.05\win ```
+
+   </td></tr></table><br>
+
+4. Masukan perintah :
+
+   <table><tr><td width="810">
+   
+   ```
+   stm8flash -cstlinkv2 -pstm8s103?3 -u
+   ```
+
+   </td></tr></table><br>
+   
+5. Tekan ``` Enter ```, lalu hasilnya dapat anda lihat seperti gambar di bawah ini.
+   
+   <img width="810" height="250" src="Assets/Documentation/Experiment/Remove Protection STM8.jpg" alt="stm8-rmv-protection">
+
+<br><br>
+
+## Memindai Alamat I2C Yang Ada Pada LCD (STM8S103F3P6)
 <table><tr><td width="840">
 
 ```ino
@@ -253,6 +363,27 @@ void loop() {
 ```
 
 </td></tr></table><br><br>
+
+## Pengaturan USB FTDI & STM8S103F3P6
+<img width="840" src="Assets/Documentation/Diagram/STM8S103F3P6 with FTDI.jpg" alt="ftdi-stm8s103f3p6-configuration"><br><br>
+
+<h3><img src="https://github.com/user-attachments/assets/932b96eb-cbc7-42f1-8938-43cb431889a5" width="16" height="16"> Catatan :</h3>
+<blockquote>
+   <ul>
+   <li>
+   
+   Komunikasi serial pada board ``` STM8S103F3P6 ``` ini sangat dimungkinkan terjadi, terutama untuk keperluan ``` Serial Monitor ``` dan ``` Serial Plotter ```. Alat yang dapat dipakai untuk komunikasi serial antara lain: ``` USB CP2102 ```, ``` USB CH340 ```, ``` USB FTDI ```, atau dengan ``` USB PL2303 ```.
+
+   </li>
+   <li>
+   
+   Pemasangan kabel antara ``` USB FTDI ``` dengan board ``` STM8S103F3P6 ``` dapat anda lihat detailnya pada gambar di atas.
+   
+   </li>
+   </ul>
+</blockquote>
+
+<br><br>
 
 ## Memulai
 1. Unduh dan ekstrak repositori ini.<br><br>
