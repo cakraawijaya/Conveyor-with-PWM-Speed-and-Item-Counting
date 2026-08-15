@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/cakraawijaya/Conveyor-with-PWM-Speed-and-Item-Counting?logo=Codeforces&logoColor=white&color=%23F7DF1E)
 ![Project](https://img.shields.io/badge/Project-Arduino%20&%20STM8-light.svg?style=flat&logo=STMicroelectronics&logoColor=white&color=%23F7DF1E)
-![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-EW%20Project%20Challenge%202026-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Conveyor with PWM Speed and Item Counting
 Proyek ini menggabungkan konveyor mini dengan sistem penghitung barang otomatis. Sistem ini terdiri dari dua papan mikrokontroler (Arduino Pro Mini dan STM8S103F3P6), yang masing-masing bekerja secara independen namun tetap saling melengkapi satu sama lain. Arduino Pro Mini bertanggung jawab atas pengendalian motor konveyor, termasuk pengaturan kecepatan dan arah putaran motor. STM8S103F3P6 berfungsi sebagai modul penghitung barang otomatis yang menampilkan hasil perhitungan secara lokal melalui LCD I2C.
@@ -188,7 +188,7 @@ Proteksi penulisan pada board ``` STM8S103F3P6 ``` dapat dihilangkan melalui beb
 
    </td></tr></table><br>
 
-4. Masukan perintah :
+4. Masukkan perintah :
 
    <table><tr><td width="810">
    
