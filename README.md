@@ -22,8 +22,8 @@ The conveyor speed is adjusted using a potentiometer, while the motor’s rotati
 | Communications Protocol | Inter Integrated Circuit (I2C) |
 | Programming Language | C/C++ |
 | Arduino Library | LiquidCrystal_I2C (default) |
-| Actuator | Gear Motor / Motor DC (x1) |
-| Sensor | • LDR Sensor Module (x1)<br>• KY-008: Laser Transmitter Module 5V (x1) |
+| Actuator | • Gear Motor / Motor DC (x1)<br>• KY-008: Laser Transmitter Module 5V (x1) |
+| Sensor | LDR Sensor Module (x1) |
 | Display | LCD I2C (x1) |
 | Other Components | • Mini USB cable - USB type A (x1)<br>• Socket female jack DC (x1)<br>• Micro USB cable - 2 pin JST (x1)<br>• Jumper cable (1 set)<br>• PCB Dot Matrix Single Layer 10cm x 22cm (x1)<br>• Adaptor DC 5V 2A (x1)<br>• Adaptor DC 12V 2A (x1)<br>• Motor driver L298N (x1)<br>• Potentiometer (x1)<br>• Push button 12 x 12 mm (x3)<br>• PVC Sheets 3 mm 10 x 50 cm (x5)<br>• Stainless Steel Concrete 30 cm (x1)<br>• Bearing Pillow Block 6 mm (x3)<br>• 1/2 Inch Pipe 25 cm (x1)<br>• Oscar fabric 50 x 137 cm (x1)<br>• Wood stickers (x2)<br>• L Bracket (x24)<br>• PVC Electrical insulation (x3)<br>• Sandpaper G-180 1 m (x1)<br>• Smart Car Rims (x1)<br>• Hexagonal Spacer Female to Female M3 x 12 (x4)<br>• Hexagonal Spacer Female to Male M3 x 20 (x4)<br>• Bolts M3 x 8 (x8)<br>• Bolts M3 x 20 (x12)<br>• Bolts M3 x 30 (x2)<br>• Bolts M5 x 25 (x8)<br>• Bolts M5 x 20 (x32)<br>• Nuts M3 (x14)<br>• Nuts M5 (x40)<br>• Header Pin Female Single Row 1x40 (x2)<br>• Header Pin Male Double Row 2x40 (x2)<br>• Header Pin Female Double Row 2x40 (x2) |
 
